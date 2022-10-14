@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 600px;
-    position: relative;
+  position: relative;
+   
 }
 
 .image-container>img{

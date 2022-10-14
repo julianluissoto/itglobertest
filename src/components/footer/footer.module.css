@@ -1,0 +1,51 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    box-shadow: 5px 0px 5px 4px #171414;
+   
+    width: 100%;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.containerlogo{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
+
+.logo{
+    width: 80px;
+    height:30px;
+}
+
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+
+
+
+.list li:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2rem;
+
+}
+
+
+
+

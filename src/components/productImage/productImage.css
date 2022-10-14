@@ -1,0 +1,45 @@
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 600px;
+    position: relative;
+}
+
+.image-container>img{
+    width: 100%;
+    height: 100%;    
+}
+
+.image-container>h1{
+    padding: 10px;
+}
+
+
+
+.image-container>p{
+    width: 330px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.image-container>button{
+    position: absolute;
+    z-index: 5;
+    top: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 50px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.image-container> button:hover{
+    transform: scale(1.2);
+}

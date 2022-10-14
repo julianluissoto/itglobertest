@@ -1,0 +1,125 @@
+.NavContainer{
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.logo{
+   
+    width: 150px;
+    height: 50px;   
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.li_navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 75vh;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 0;
+}
+.last{
+    border-right: none;
+}
+
+.menu:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.menu img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu h2{
+    color: rgb(255, 255, 255);    
+    font-size: 18px;
+    margin-top: 5px;
+}
+.userPanel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    
+}
+
+.userpanel select{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
+
+.userpanel select option{
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;   
+}
+
+.userpanel h3{
+    color: rgb(255, 255, 255);    
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.userAccess{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.userAccess select{
+    background: transparent;
+    appearance: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.userAccess select option{
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;   
+    margin-right: 15px;
+}
+
+.userAccess h2{
+    color: rgb(255, 255, 255);    
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    cursor: pointer;
+    border-left: 1px solid white;
+    padding-left: 15px;
+}

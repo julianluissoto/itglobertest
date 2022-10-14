@@ -39,7 +39,7 @@ export default function Footer() {
             <li onClick={scrollToNap}>PUFI NAP</li>
           </ul>
         </div>
-
+        <div className={style.line}></div>
         <div className={style.list}>
           <ul>
             <li>CONTACTO</li>
@@ -48,7 +48,7 @@ export default function Footer() {
             <li>TERMINOS Y CONDICIONES</li>
           </ul>
         </div>
-
+        <div className={style.line}></div>
         <div>
           <p className="text-center font-medium mt-4 ">COMPRA 100% SEGURA</p>
           <div className="flex justify-center">
@@ -59,7 +59,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
-
+        <div className={style.line}></div>
         <div className={style.social}>
           <span className="font-semibold text-xl ">Seguinos en </span>
           <GrFacebookOption size={20} className="mr-2 ml-2 mt-1" />
